@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  php56:
+    build: ./php56
+    volumes:
+     - ~/www:/var/www
+  php70:
+    build: ./php70
+    volumes:
+     - ~/www:/var/www
